@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import { useState } from "react";
+import { Router } from "./routes/Router";
 
 function App() {
-  const [count, setCount] = useState(0)
+    const [user, setUser] = useState<{ name: string; login: string } | undefined>(undefined);
 
-  return (
-    <>
-      
-    </>
-  )
+    return (
+        <>
+            <Router />
+        </>
+    );
 }
 
-export default App
+export default App;
