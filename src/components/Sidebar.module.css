@@ -1,0 +1,57 @@
+.sidebarContainer {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s;
+  }
+  
+  .sidebarOpen {
+    width: 250px;
+  }
+  
+  .sidebarClosed {
+    width: 80px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b6cb0;
+    margin-bottom: 40px;
+  }
+  
+  .iconWrapper {
+    margin-right: 10px;
+  }
+  
+  .menuItem {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .menuItem:hover {
+    background-color: #eaeaea;
+  }
+  
+  .menuItem svg {
+    color: #2b6cb0;
+  }
+  
+  .open svg {
+    margin-right: 10px;
+  }
+  
+  .closed svg {
+    margin-right: 0;
+  }
+  

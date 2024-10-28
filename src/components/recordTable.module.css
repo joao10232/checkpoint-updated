@@ -1,0 +1,42 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  background-color: #f0f0f0;
+}
+
+.tableRow {
+  border-bottom: 1px solid #ddd;
+}
+
+.tableHeader {
+  padding: 12px 8px;
+  text-align: left;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+.tableCell {
+  padding: 12px 8px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.tableCell:nth-child(7) {
+  color: red;
+}
+
+.tableCell:nth-child(8) {
+  color: green;
+}
