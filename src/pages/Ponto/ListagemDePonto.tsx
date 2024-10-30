@@ -17,7 +17,7 @@ interface IListagemPonto {
     turno: string;
 }
 export function ListagemDePonto() {
-    const [listagemPonto, setListagemPonto] = useState<IListagemPonto[]>([
+    const [listagemPonto] = useState<IListagemPonto[]>([
         {
             id: 1,
             data: moment().format("DD/MM/YYYY"),

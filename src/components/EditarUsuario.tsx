@@ -4,10 +4,7 @@ import styles from './editarUsuario.module.css';
 const EditarUsuario: React.FC = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.profileSection}>
-        <img src="/src/assets/user.jpg" alt="Foto de perfil" className={styles.profileImage} />
-        <button className={styles.editPhotoButton}>Editar foto de perfil</button>
-      </div>
+      
       
       <h2 className={styles.title}>Dados pessoais</h2>
       

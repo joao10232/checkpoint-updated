@@ -34,6 +34,7 @@ const Cadastro: React.FC = () => {
               placeholder="Nome Completo" 
               value={nome}
               onChange={(e) => setNome(e.target.value)}
+              required
             />
           </div>
           <div className={styles.inputGroup}>
@@ -44,6 +45,7 @@ const Cadastro: React.FC = () => {
               placeholder="Email" 
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </div>
           <div className={styles.inputGroup}>
@@ -54,6 +56,7 @@ const Cadastro: React.FC = () => {
               placeholder="Senha" 
               value={senha}
               onChange={(e) => setSenha(e.target.value)}
+              required
             />
           </div>
           <div className={styles.inputGroup}>
@@ -64,6 +67,7 @@ const Cadastro: React.FC = () => {
               placeholder="Confirmar Senha" 
               value={confirmarSenha}
               onChange={(e) => setConfirmarSenha(e.target.value)}
+              required
             />
           </div>
           <button type="submit" className={styles.cadastrarButton}>Cadastrar</button>
