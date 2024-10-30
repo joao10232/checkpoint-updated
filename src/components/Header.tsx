@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import { FaSearch, FaUserCircle } from "react-icons/fa";
 
 const HeaderContainer = styled.div`
     display: flex;
@@ -67,7 +66,7 @@ const Header: React.FC = () => {
 
     return (
         <HeaderContainer>
-            <Title>Histórico de ponto • Caratinga-MG</Title>
+            <Title>Histórico de Ponto • Caratinga-MG</Title>
             <div style={{ display: "flex", alignItems: "center" }}>
                 <UserContainer onClick={toggleDropdown}>
                     <UserImage src='/src/assets/user.jpg' alt='Usuário' />

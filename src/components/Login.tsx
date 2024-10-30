@@ -26,6 +26,7 @@ export const Login: React.FC = () => {
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             placeholder='Usuário'
+                            required
                         />
                     </div>
                     <div className={styles.inputGroup}>
@@ -36,6 +37,7 @@ export const Login: React.FC = () => {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             placeholder='Senha'
+                            required
                         />
                     </div>
                     <button type='submit' className={styles.loginButton}>
@@ -50,5 +52,6 @@ export const Login: React.FC = () => {
         </div>
     );
 };
+
 
 export default Login;

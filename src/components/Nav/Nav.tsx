@@ -1,6 +1,4 @@
 import { useState } from "react";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { Box, Button, Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import ContrastIcon from "@mui/icons-material/Contrast";
